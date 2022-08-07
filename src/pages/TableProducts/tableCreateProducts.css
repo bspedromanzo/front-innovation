@@ -1,0 +1,139 @@
+body {
+  font-family: 'open sans', sans-serif;
+  font-size: 16px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+thead th {
+  text-align: left;
+  border-bottom: 2px solid black;
+}
+
+thead button {
+  border: 0;
+  border-radius: none;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: inherit;
+  padding: 0.5em;
+  margin-bottom: 1px;
+}
+
+thead button.ascending::after {
+  content: '👇';
+  display: inline-block;
+  margin-left: 1em;
+}
+
+thead button.descending::after {
+  content: '☝️';
+  display: inline-block;
+  margin-left: 1em;
+}
+
+tbody td {
+  padding: 0.5em;
+  border-bottom: 1px solid #ccc;
+}
+
+tbody tr:hover {
+  background-color: #eee;
+}
+
+.formAction {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row !important;
+}
+
+.containerSelectAction {
+  margin: 0 10px;
+  width: 230px;
+}
+
+.selectAction {
+  display: flex !important;
+}
+
+
+.cancelButton {
+  margin: 10px !important
+}
+
+.true {
+  background-color: green !important;
+  border: none !important;
+  padding: 10px 20px !important;
+  color: white !important;
+}
+
+.false {
+  background-color: red !important;
+  border: none !important;
+  padding: 10px 20px !important;
+  color: white !important;
+}
+
+.cancelBody {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+#demo-simple-select-label {
+  margin-left: 10px
+}
+
+.imgGif {
+  width: 24px;
+}
+
+.MuiTablePagination-selectLabel {
+  display: none;
+}
+
+.css-16c50h-MuiInputBase-root-MuiTablePagination-select {
+  display: none !important;
+}
+
+.colunmLabel {
+  font-weight: bold !important;
+}
+
+.inputMask {
+  border: none;
+  background-color: transparent;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 0.875rem;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.buttonContainer {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.perfilAction {
+  font-size: 18px;
+  color: #4e73df !important;
+}
+
+.buttonActionTable {
+  margin: 5px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.imgTable {
+  width: 50px;
+}

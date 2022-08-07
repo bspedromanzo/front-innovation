@@ -1,0 +1,94 @@
+.headerContainer {
+    height: 55px;
+    background-color: black;
+    margin-bottom: 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.headerButtons {
+    display: flex;
+    justify-content: space-between;
+    width: 15%;
+}
+
+.headerButton {
+    text-decoration: none;
+    color: white
+}
+
+.headerPhoto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background-color: white;
+    height: 35px;
+    width: 35px;
+}
+
+.headerPhoto p {
+    font-weight: bold;
+}
+
+.iconBell {
+    margin: 0 10px
+}
+
+.iconMail {
+    margin: 0 10px
+}
+
+.iconContainer {
+    margin: 0 10px;
+    display: flex;
+}
+
+.lineVertical {
+    margin: 0 20px 0 10px;
+    align-items:center;
+    font-size: 26px;
+}
+
+.img {
+    border-radius: 50%;
+    height: 2rem;
+    width: 2rem;
+    margin: 0 10px
+}
+
+.userContainer {
+    display: flex;
+    align-items:center;
+}
+
+.d-flex {
+    align-items:center;
+}
+
+.Navbar {
+    background-color: white;
+}
+
+.me-2 {
+    background-color: #f0f0f0 !important;
+    border: none !important;
+}
+
+.searchButton {
+    color: #fff !important;
+    background-color: #4e73df !important;
+    border-color: #4e73df !important;
+}
+
+.userContainer-menu {
+    background-color: transparent !important;
+    border: none;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}

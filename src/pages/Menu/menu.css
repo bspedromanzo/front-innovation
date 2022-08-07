@@ -1,0 +1,142 @@
+.sidebar {
+    width: 16rem;
+    min-height: 100vh;
+    /* text-transform: uppercase!important; */
+}
+
+.bg-gradient-primary {
+    background-color: black;
+    /* background-image: linear-gradient(180deg, #4e73df 10%, #224abe 100%); */
+    background-size: cover;
+}
+
+.accordion {
+    overflow-anchor: none;
+}
+
+.navbar-nav {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    color: white;
+}
+
+.menuImg {
+    margin: 10px 0;
+    width: 30px;
+    height: 50px;
+}
+
+.nav-item {
+    margin: 0 15px;
+}
+
+.IconName {
+    margin-left: 10px;
+}
+
+.lineMenu {
+    margin: 10px;
+    width: 100%;
+}
+
+.sidebar-heading {
+    margin: 0 15px;
+    font-weight: 800;
+    font-size: .80rem;
+}
+
+.titleLogo {
+    text-decoration: none;
+    font-weight: 800;
+    color: white;
+}
+
+.titleLogo:hover {
+    color: white;
+}
+
+.button-menu {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    border: none !important;
+    color: white;
+    text-decoration: none;
+    padding: 0.375rem 0.75rem;
+}
+
+.button-accordion {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    border: none !important;
+    color: white;
+    text-decoration: none;
+    padding: 0.375rem 0.75rem;
+}
+
+.button-accordion:hover {
+    background-color: #3e5cb8;
+    color: white;
+}
+
+.button-menu:hover {
+    background-color: #3e5cb8;
+    color: white;
+}
+
+.drop-menu {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    border: none !important;
+}
+
+.drop-menu button {
+    background-color: transparent;
+    border: none;
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.drop-menu button:hover {
+    background-color: #3e5cb8;
+}
+
+.show>.btn-secondary.dropdown-toggle {
+    background-color: #3e5cb8 !important;
+    border: none !important;
+    border-color: transparent !important;
+    box-shadow: none !important;
+}
+
+.icons {
+    margin-right: 5px;
+}
+
+.subMenu {
+    background-color: #f89200 !important;
+    color: black !important;
+}
+
+.super-colors {
+    background-color: #f89200 !important;
+    transform: translate(225px, 0px) !important;
+}
+
+.super-colors-accordion {
+    background-color: #f89200 !important;
+    transform: translate(55px, 0px) !important;
+}
+
+.sidebarAccordion {
+    min-height: 100vh;
+}

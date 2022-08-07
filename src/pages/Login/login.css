@@ -1,0 +1,83 @@
+.loginContainer {
+    min-height: 100vh;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.modalContainer {
+    display: flex;
+    height: 100%;
+}
+
+.loginImg {
+    height: 300px;
+}
+
+.imgContainer {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: 0 100px;
+}
+
+.dateContainer {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 20px 0 10px;
+}
+
+.input {
+    margin: 5px 0;
+    width: 100%;
+}
+
+#buttonLogin {
+    margin-top: 10px;
+    width: 50%;
+    height: 35px;
+    color: white;
+    background-color: #001c5b;
+    border-color: transparent;
+    border-radius: 10px;
+}
+
+.buttonLogin {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+}
+
+.inputLog {
+    margin: 5px 0;
+    width: 100% !important;
+    border-radius: 5px;
+    height: 40%;
+    padding: 0 5px;
+    border: 1px solid #D3D3D3
+}
+
+.input-group {
+    flex-direction: column;
+}
+
+.titleContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.errorContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: red;
+    font-weight: bold;
+}

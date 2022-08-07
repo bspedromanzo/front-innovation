@@ -1,0 +1,7 @@
+.justify-content-center {
+    background-color:  rgba(var(--bs-light-rgb),var(--bs-bg-opacity))!important;
+}
+
+.link {
+    color: white
+}
